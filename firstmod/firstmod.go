@@ -1,11 +1,11 @@
 package firstmod
 
 type FirstModule struct {
-  Property string
+	Property string
 }
 
 func New() FirstModule {
-  return FirstModule{
-    Property: "initial"
-  }
+	return FirstModule{
+		Property: "initial1",
+	}
 }
